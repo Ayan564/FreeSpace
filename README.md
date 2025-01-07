@@ -18,7 +18,7 @@
 - [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
 
 </details> -->
-
+<!--
 ## Folder Structure
 
 Here is the folder structure of this app.
@@ -26,20 +26,16 @@ Here is the folder structure of this app.
 ```bash
 freespace/
   |- app/
-    |-- (site)/
-        |--- components/
-        |--- page.tsx
-    |-- api/
-        |--- auth/[...nextauth]
-        |--- whiteboard/[boardId]
-    |-- components/
-        |--- toolbar/
-        |--- sidebar/
-        |--- header.tsx
-        |--- canvas.tsx
-        |--- modal.tsx
-    |-- context/
-        |--- auth-context.ts
+    |-- _components/
+        |--- AdBanner.tsx
+        |--- Header.tsx
+        |--- Hero.tsx
+    |-- _constant/
+        |--- Constant.tsx
+    |-- _context/
+        |--- FileListContext.tsx
+    |-- (routes)/
+        |--- dashboard/
         |--- whiteboard-context.ts
     |-- hooks/
         |--- use-whiteboard.ts
@@ -75,7 +71,7 @@ freespace/
   |- tsconfig.json
 ```
 
-<br />
+<br /> -->
 
 ## Getting Started
 
