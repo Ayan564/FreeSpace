@@ -18,7 +18,7 @@
 - [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
 
 </details> -->
-<!--
+
 ## Folder Structure
 
 Here is the folder structure of this app.
@@ -36,34 +36,67 @@ freespace/
         |--- FileListContext.tsx
     |-- (routes)/
         |--- dashboard/
-        |--- whiteboard-context.ts
-    |-- hooks/
-        |--- use-whiteboard.ts
-        |--- use-user.ts
-    |-- libs/
-        |--- convex.ts
-    |-- types/
-        |--- index.ts
-    |-- config/
-        |--- authOptions.tsx
+            |---- _components/
+                |----- FileList.tsx
+                |----- Header.tsx
+                |----- PricingDialog.tsx
+                |----- SideNav.tsx
+                |----- SideNavBottomSection.tsx
+                |----- SideNavTopSection.tsx
+            |---- layout.tsx
+            |---- page.tsx
+        |--- teams/
+            |---- create/
+                |----- page.tsx
+        |--- workspace/
+            |---- _components/
+                |----- Canvas.tsx
+                |----- Editor.tsx
+                |----- WorkspaceHeader.tsx
+            |---- [fileId]/
+                |----- page.tsx
+    |-- api/
+        |--- auth/
+            |---- [kindeAuth]/
+                |----- route.js
+    |-- ConvexClientProvider.tsx
     |-- favicon.ico
     |-- globals.css
     |-- layout.tsx
-  |-- pages/
-    |-- api/
-        |--- pusher/
-          |--- auth.ts
-  |- prisma/
-    |--- schema.prisma
+    |-- page.tsx
+  |- components/
+      |-- ui/
+          |--- dialog.tsx
+          |--- button.tsx
+          |--- dropdown-menu.tsx
+          |--- input.tsx
+          |--- popover.tsx
+          |--- separator.tsx
+          |--- sonner.tsx
+  |- convex/
+      |-- _generated/
+          |--- api.d.ts
+          |--- api.js
+          |--- dataModel.d.ts
+          |--- server.d.ts
+          |--- server.js
+      |-- files.tsx
+      |-- teams.tsx
+      |-- user.tsx
   |- public/
-    |--- images/
-        |--- logo.png
-        |--- placeholder.jpg
-  |- .env
-  |- .eslintrc.json
+      |-- create-team.png
+      |-- landing-page.png
+      |-- logo-1.png
+      |-- logo-black.png
+      |-- moder-uiux.png
+      |-- next.svg
+      |-- thoughts.png
+      |-- vercel.svg
+  |- .env.local
   |- .gitignore
+  |- components.json
   |- middleware.ts
-  |- next.config.js
+  |- next.config.mjs
   |- package-lock.json
   |- package.json
   |- postcss.config.js
@@ -71,7 +104,7 @@ freespace/
   |- tsconfig.json
 ```
 
-<br /> -->
+<br />
 
 ## Getting Started
 
