@@ -131,9 +131,9 @@ NEXT_PUBLIC_CONVEX_URL=<your-next-convex-url>
 
 ```
 
-11. Open terminal in root directory. Run `npm install` or `yarn install`.
+5. Open terminal in root directory. Run `npm install` or `yarn install`.
 
-12. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+6. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
 
 ## Screenshots:
 
